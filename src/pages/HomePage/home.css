@@ -1,0 +1,162 @@
+
+.h2h-monitors{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.table-osds{
+    margin-right: 5px;
+}
+
+
+.table-h2h {
+    margin-right: 5px;
+}
+
+.container-all {
+    width: 100%;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+ @media (max-width: 319px) and (max-width: 413px) {
+    .container-all {
+        margin-top: 5px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+   
+    }
+
+     .nav-links {
+         font-size: 0.67rem;
+         margin-right: 20px;
+         flex: 1;
+         display: flex;
+         justify-content: flex-end;
+     }
+        
+    }
+                
+.table-non-erp{
+    display: flex;
+    margin-left: 20px;
+}
+
+.container-all-non-erp{
+    width: 100%;
+    display: flex;
+}
+.container-non-erp{
+        width:650px;
+        height: 550px;
+        justify-items: start;
+        
+}
+@media (min-width:360px) and (max-width:364px) {
+   .title-system{
+    display: none;
+   }
+   .title-osds{
+        display: none;
+   }
+    .title-h2h {
+    display: none;
+    }
+    .title-main{
+    display: none;
+    }
+    .container-all{
+    margin-top: 20px
+    }
+}
+
+@media (min-width:367px) and (max-width:376px) {
+    .title-system {
+    display: none;
+
+    }
+    .title-osds {
+     display: none;
+    }
+    .title-h2h{
+    display: none;
+    }
+    .title-main {
+     display: none;
+    }
+    .container-all{
+    margin-top: 20px
+    }
+}
+
+@media (min-width:377px) and (max-width:394px) {
+    .title-system {
+    display: none;
+    }
+    .title-osds {
+    display: none;
+    }
+    .title-h2h {
+     display: none;
+    }
+    .title-main {
+     display: none;
+    }
+    .container-all{
+     margin-top: 20px
+    }
+   
+}
+
+@media (min-width:395px) and (max-width:415px) {
+    .title-system {
+            display: none;
+    }
+    .title-osds {
+     display: none;
+     }
+    .title-h2h {
+     display: none;
+    }
+    .title-main {
+    display: none;
+    }
+    .container-all{
+    margin-top: 20px
+    }
+
+}
+
+.title-system{
+    position: absolute;
+        top: 11.5%;
+        width: 40%;
+        text-align: center;
+        font-weight: bold;
+}
+
+.title-osds{
+    position: absolute;
+    top: 11.5%;
+    text-align: center;
+    width: 40%;
+    font-weight: bold;
+}
+
+
+.title-h2h{
+    position: absolute;
+        top: 11.5%;
+        text-align: center;
+        width: 10%;
+        font-weight: bold;
+        margin-left: 50px;
+}

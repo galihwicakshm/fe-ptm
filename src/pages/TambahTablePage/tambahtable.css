@@ -1,0 +1,12 @@
+.tambah-table{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px){
+    .tambah-table {
+            display: flex;
+            justify-content: center;
+            width: 600px;
+        }
+}

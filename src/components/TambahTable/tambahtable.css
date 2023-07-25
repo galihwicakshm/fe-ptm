@@ -1,0 +1,86 @@
+.card-add {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    background-color: #fff;
+        
+}
+.card-add h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+    
+.card-add form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-add label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-add input,
+.card-add textarea {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 93%;
+    margin-bottom: 20px;
+}
+
+.card-add input:focus,
+.card-add textarea:focus {
+    border-color: #6a5acd;
+    outline: none;
+}
+
+.card-add button[type="submit"] {
+    margin-top: 20px;
+    background-color: #6a5acd;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-add button[type="submit"]:hover {
+    background-color: #4b0082;
+}
+
+Link{
+    text-decoration: none;
+    list-style: none;
+}
+
+.select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    box-shadow: none;
+}
+
+.select:hover,
+.select:focus {
+border-color: #6a5acd;
+    outline: none;}
+
+.select option {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 93%;
+    margin-bottom: 20px;
+    text-align: center;
+        
+}

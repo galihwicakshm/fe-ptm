@@ -1,0 +1,29 @@
+.content-h2hmonitor {
+    border-collapse: collapse;
+    margin-bottom: 1px;
+   font-size: 0.68rem;
+   width: 100%;
+
+}
+
+.content-h2hmonitor thead tr {
+    background-color: rgb(1, 117, 206);
+    color: #ffff;
+    text-align: left;
+}
+
+
+.content-h2hmonitor td {
+    padding: 1.15px 1.15px;
+
+}
+.content-h2hmonitor th{
+        padding: 1.15px 0px;
+}
+
+.container-h2h{
+    overflow-y: scroll;
+        height: 600px;
+    }
+
+

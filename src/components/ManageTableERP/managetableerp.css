@@ -1,0 +1,88 @@
+.manage-table table {
+    text-align: center;
+}
+
+.manage-table tr {
+    text-align: center;
+}
+
+.manage-table th,
+.manage-table td {
+    padding: 50px 50px;
+    border: 1px solid #ddd;
+}
+
+.manage-table th {
+    background-color: #f2f2f2;
+}
+
+.manage-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.manage-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.button-tambah {
+    background-color: #6a01b6;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-delete {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.manage-table-erp {
+    width: 500px;
+    margin-left: 20px;
+}
+
+
+
+caption {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.manage-erp {
+    overflow-y: scroll;
+    height: 650px;
+    width: 600px;
+}
+
+@media screen and (max-width: 667px) {
+        .manage-erp {
+        overflow-y: scroll;
+        height: 650px;
+        width: 400px;
+        }
+
+        .manage-table-erp {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 300px;
+        margin-left:35px;
+        }
+}

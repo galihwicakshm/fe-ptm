@@ -1,0 +1,105 @@
+.table-osdsmonitor {
+    border-collapse: collapse;
+    margin-bottom: 8px;
+    font-family: 'Arial';
+
+}
+.table-osdsmonitor tbody tr:nth-child(1) {
+    background-color: #0096c7;
+    color: white;
+
+}
+
+.table-osdsmonitor tbody tr {
+    width: 50px;
+
+}
+
+.table-osdsmonitor thead tr {
+    background-color: rgb(1, 117, 206);
+    color: #ffff;
+    text-align: left;
+}
+
+.table-osdsmonitor td {
+    font-size: 0.68rem;
+    padding: 2px 4px;
+
+}
+
+.table-osdsmonitor th {
+    font-size: 0.75rem;
+    padding: 3px 1px;
+}
+
+
+   
+.content-osdsmonitor th:nth-child(1) {
+    width: 70px;
+}
+
+.content-osdsmonitor th:nth-child(6) {
+    width: 10px;
+}
+
+
+
+
+tr[bgColor="#ff595e"] {
+    color: white;
+}
+
+.container-osdsmonitor-url th:nth-child(1) {
+    width: 30px;
+}
+.container-osdsmonitor-url td:nth-child(1) {
+    width: 30px;
+}
+
+.container-osdsmonitor-url th:nth-child(2) {
+    width: 10px;
+}
+
+.container-osdsmonitor-url td:nth-child(2) {
+    padding-right: 20px;
+    width: 10px;
+}
+
+.container-osdsmonitor-url th:nth-child(6) {
+    width: 10px;
+    padding-right: 100px;
+}
+
+.container-osdsmonitor-url td:nth-child(6) {
+    width: 100px;
+}
+
+.container-osdsmonitor-url th:nth-child(5) {
+    width: 0px;
+}
+.container-osdsmonitor-url th:nth-child(5) {
+    width: 0px;
+}
+
+.container-osdsmonitor-url th:nth-child(4) {
+    width: 0px;
+}
+.container-osdsmonitor-url td:nth-child(4) {
+    width: 0px;
+}
+.table-osdsmonitor tbody tr:first-child{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.container-osdsmonitor-url{
+    overflow: auto;
+    height: 600px;
+}
+
+
+.container-osdsmonitor-url tbody tr:nth-child(1) {
+    position: sticky;
+    top: 0;
+}

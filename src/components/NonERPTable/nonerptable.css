@@ -1,0 +1,50 @@
+
+
+.non-erp-table {
+    border-collapse: collapse;
+    margin-bottom: 8px;
+    font-family: 'Arial';
+    font-size: 0.68rem;
+}
+
+
+.non-erp-table thead tr {
+    background-color: #02c185;
+    color: #ffffff;
+    text-align: left;
+}
+
+.non-erp-table th,
+.non-erp-table td {
+    font-size: 0.68rem;
+    padding: 3px 5px;
+    font-weight: 550;
+
+}
+
+.non-erp-table {
+    background-color: #ffffff;
+}
+
+
+.wrapper-status {
+    display: flex;
+}
+
+.offline-tr {
+    color: white;
+    background-color: #ff595e;
+}
+
+
+.non-erp-table {
+    margin-right: 5px;
+}
+
+
+.non-erp-table th:nth-child(1) {
+    width: 100px;
+}
+
+
+

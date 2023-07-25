@@ -1,0 +1,11 @@
+.manage-table-system{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 667px){
+.manage-table-system {
+        display:contents;
+    }
+}

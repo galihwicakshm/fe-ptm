@@ -1,0 +1,59 @@
+.daftar-table{
+    margin-top: 20px;
+    position: absolute;
+    left: 35%
+}
+.erp-non-erp-down{
+    position: absolute;
+    left: 28%;
+    top: 10%;
+}
+
+@media (min-width:360px) and (max-width:364px) {
+.daftar-table {
+        left: 0%;    
+}
+.erp-non-erp-down {
+    position: absolute;
+    left: 9%;
+    top: 10%;
+    width: 300px;
+    
+}
+}
+
+@media (min-width:367px) and (max-width:376px) {
+.daftar-table {
+        left: 0%;
+    }
+        .erp-non-erp-down {
+            position: absolute;
+             left: 10%;           
+              top: 10%;
+              width: 300px;
+        }
+}
+
+@media (min-width:377px) and (max-width:394px) {
+.daftar-table {
+                left: 0%;
+    }
+                 .erp-non-erp-down {
+                     position: absolute;
+                     left: 12%;
+                     top: 10%;
+                     width: 300px;
+                 }
+}
+
+@media (min-width:395px) and (max-width:415px) {
+.daftar-table {
+        left: 1%;    }
+ .erp-non-erp-down {
+     position: absolute;
+     left: 13%;
+     top: 10%;
+     width: 300px;
+ };
+
+}

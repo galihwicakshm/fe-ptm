@@ -1,0 +1,28 @@
+.content-h2h-bank {
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    font-size: 0.68rem;
+
+
+}
+
+.content-h2h-bank thead tr {
+    background-color: rgb(1, 117, 206);
+    color: #ffff;
+    text-align: left;
+}
+
+.content-h2h-bank th,
+.content-h2h-bank td {
+    padding: 1.15px 0px;
+
+}
+
+
+@media screen and (max-width: 667px) {
+
+    .content-h2h-bank {
+        margin-top: 3.6px;
+    }
+
+}

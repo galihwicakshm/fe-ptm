@@ -1,0 +1,128 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: left 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sidebar-content {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.sidebar-trigger-btn {
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    font-size: 1.5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 9998;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 9997;
+}
+
+.sidebar-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+ .logo img {
+     position: absolute;
+     left: 20%;
+     width: 150px;
+     height: 34px;
+     margin-top: 10px;
+ }
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+li:hover {
+    border-radius: 10px;
+    background-color: #ebebeb;
+     color: white !important;;
+}
+
+li .dropdown:hover{
+        border-radius: none;
+            background-color: none;
+            color: none !important;
+            ;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.show {
+    display: block;
+    align-items: center;
+        text-align: center;
+    justify-content: center;
+        left: 30%;
+        right: 30%
+}
+
+.show:hover {
+}
+
+
+.dropdown-content a {
+    margin-top: 20px;
+    display: block;
+    text-align: center; 
+    left: 20%
+}
+
+.dropdown-content a:hover{
+        font-weight: 700;
+        color: rgb(0, 0, 0) !important;
+        
+}
+
+
+.sidebar-content a:hover{
+            font-weight: 700;
+}

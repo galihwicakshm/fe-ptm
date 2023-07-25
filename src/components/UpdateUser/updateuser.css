@@ -1,0 +1,61 @@
+.update-user {
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.update-user h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.update-user form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-user label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.update-user input,
+.update-user textarea {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 93%;
+    margin-bottom: 20px;
+}
+
+.update-user input:focus,
+.update-user textarea:focus {
+    border-color: #6a5acd;
+    outline: none;
+}
+
+.update-user button[type="submit"] {
+    margin-top: 20px;
+    background-color: #6a5acd;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-user button[type="submit"]:hover {
+    background-color: #4b0082;
+}
+
+Link {
+    text-decoration: none;
+    list-style: none;
+}

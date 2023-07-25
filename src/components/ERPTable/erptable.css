@@ -1,0 +1,56 @@
+.table-status {
+    border-collapse: collapse;
+    margin-bottom: 8px;
+    font-family: 'Arial'; 
+
+    
+}
+
+
+
+.table-status th:nth-child(1) {
+    width: 100px;
+}
+
+
+.table-status thead tr {
+    background-color: #0096c7;
+    color: #ffff;
+    text-align: left;
+}
+
+.table-status td {
+    font-size: 0.68rem;
+    padding: 2px 5px;      
+    /* font-weight: bold; */
+    font-weight: 550;
+
+}
+
+.table-status th {
+    font-size: 0.68rem;
+    padding: 3px 5px;
+
+}
+
+
+
+
+.title-table {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.title-table-non-erp {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.table-item{
+        margin-right: 10px;
+}
+
+.table-status th:nth-child(1){
+    width: 70px;
+}
+

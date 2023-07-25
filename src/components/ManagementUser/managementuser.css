@@ -1,0 +1,162 @@
+
+
+
+.table-management-user .update {
+    background-color: #0091ff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.table-management-user .update:hover {
+    background-color: #0016a2;
+}
+
+.table-management-user .password {
+    background-color: #17c700;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: bold;
+    padding: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.table-management-user .password:hover {
+    background-color: #1d7701;
+}
+
+.table-management-user .delete {
+    background-color: #ff2222;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.table-management-user .delete:hover {
+    background-color: #9a0000;
+}
+
+.table-management-user .update {
+    text-decoration: none;
+    font-style: none;
+
+}
+
+
+.table-user {
+    margin-left: 20px;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    font-size: 1rem;
+
+}
+
+.table-user thead tr {
+    background-color: rgb(0, 159, 159);
+    color: #ffff;
+    text-align: left;
+}
+
+
+.table-user th:nth-child(2) {
+    width: 150px;
+}
+.table-user td:nth-child(1) {
+    width: 250px;
+}
+.table-user th:nth-child(4) {
+    width: 10px;
+}
+.table-user td:nth-child(4) {
+    width: 10px;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        /* width: 400px; */
+
+    }
+
+   .table-user th:nth-child(2) {
+       width: 50px;
+   }
+
+   .table-user td:nth-child(1) {
+       width: 50px;
+   }
+
+   .table-user th:nth-child(4) {
+       width: 10px;
+   }
+
+   .table-user td:nth-child(4) {
+       width: 10px;
+   }
+
+   .table-management-user {
+    width: 100%;
+    overflow-x: auto;
+   }
+   .table-user{
+    width: 150%;
+   }
+
+  .judul-daftar-user{
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+    .right-column {
+        margin-top: 42rem;
+        position: absolute;
+        margin-left: 18rem;
+        margin-right: 200px;
+        width: 500px;
+        transform: scale(0.8);
+    }
+
+        .table-user thead tr {
+            background-color: rgb(0, 159, 159);
+            color: #ffff;
+            text-align: left;
+        }
+
+         .table-user th:nth-child(2) {
+             width: 50px;
+         }
+    
+         .table-user td:nth-child(1) {
+             width: 50px;
+         }
+    
+         .table-user th:nth-child(4) {
+             width: 10px;
+         }
+    
+         .table-user td:nth-child(4) {
+             width: 10px;
+         }
+}

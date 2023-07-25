@@ -1,0 +1,61 @@
+
+.button-tambah {
+    background-color: #6a01b6;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-delete {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.manage-table-non-erp {
+        width: 500px;
+    margin-left: 42px;
+}
+
+
+
+caption {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.manage-non-erp {
+    margin-right: 20px;
+    overflow-y: scroll;
+    height: 650px;
+    width: 600px;
+}
+@media screen and (max-width: 667px) {
+    .manage-non-erp {
+    overflow-y: scroll;
+    height: 650px;
+    width: 400px;
+    }
+
+    .manage-table-non-erp {
+    width: 300px;
+    margin-top: 50px;
+        margin-left: 35px;    }
+}

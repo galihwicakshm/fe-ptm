@@ -1,0 +1,57 @@
+.osds-monitor-table {
+   display: flex;
+   margin-top: 40px;
+   display: grid;
+   justify-content: center;
+   height: 650px;
+}
+
+ .title-osds-mobile {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+@media (min-width:360px) and (max-width:364px) {
+   .table-osdsmonitor {
+         margin-top: 20px;
+      border-collapse: collapse;
+      margin-bottom: 8px;
+      font-family: 'Arial';
+            transform: scaleX(0.85);
+   }
+
+}
+
+@media (min-width:367px) and (max-width:376px) {
+   .table-osdsmonitor {
+            margin-top: 20px;
+      border-collapse: collapse;
+      margin-bottom: 8px;
+      font-family: 'Arial';
+      transform: scaleX(0.85);
+
+   }
+}
+
+@media (min-width:377px) and (max-width:394px) {
+   .table-osdsmonitor {
+      margin-top: 20px;
+      border-collapse: collapse;
+      margin-bottom: 8px;
+      font-family: 'Arial';
+            transform: scaleX(0.85);
+   }
+
+}
+
+@media (min-width:395px) and (max-width:415px) {
+   .table-osdsmonitor {
+      margin-top: 20px;
+      border-collapse: collapse;
+      margin-bottom: 8px;
+      font-family: 'Arial';
+            transform: scaleX(0.85);
+   }
+
+}
